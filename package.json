@@ -3,6 +3,7 @@
   "displayName": "codesafe",
   "publisher": "LarryMen",
   "description": "",
+  "icon": "icon.jpg",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.98.0"
