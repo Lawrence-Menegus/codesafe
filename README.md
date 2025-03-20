@@ -20,16 +20,24 @@ Visual Studio Code: This extension requires the latest version of VS Code.
 
 This extension does not add additional settings but allows you to enable or disable the scanning process using the safecode.scan command.
 
-For example:
+## Use 
 
-CodeSafe.scan: Scan the current file for sensitive information.
-You can bind this command to a keyboard shortcut for quick access.
+### Works automatically 
 
-## Known Issues
+however 
 
-Currently, the extension only supports basic redaction and might not handle edge cases like multiline secrets.
+### If Needed to Run Manually 
 
-If you use special characters or custom encodings in your sensitive values, they may not be detected accurately.
+Do The Followimg:
+
+control+shift + P 
+
+Type in Bar: 
+Scan Code For Security Risks 
+
+Press Enter 
+
+It will highlight were you need to change the code for exposed keys, passwords or codes. 
 
 ## Release Notes
 
