@@ -1,49 +1,58 @@
-# CodeSafe README
+# CodeSafe  
 
-CodeSafe is a security scanner for Visual Studio Code that helps developers identify sensitive information (like API keys, passwords, tokens, and other secrets) within their codebase. It automatically scans for predefined sensitive keywords to identify them which improves security and privacy.
+CodeSafe is a security scanner for Visual Studio Code that helps developers identify and locate sensitive information, such as API keys, passwords, tokens, and other secrets, within their codebase. It automatically scans for predefined sensitive keywords and alerts the user, enhancing security and privacy.  
 
-## Features
+## Features  
 
-Automated Scanning: Automatically detects sensitive information such as API keys, passwords, database connection strings, and more.
+- **Automated Scanning** – Detects sensitive information like API keys, passwords, and database connection strings automatically.  
+- **User Notification** – Alerts the user when sensitive keywords are found and provides the option to redact them.  
+- **Customizable Sensitivity** – Allows users to ignore specific keywords or lines to reduce unnecessary alerts.  
+- **Real-Time Scanning** – Continuously monitors code changes and flags new secrets immediately.  
 
-Redaction Prompt: When sensitive keywords are found, it prompts the user with the option to redact them with a single click.
+## Requirements  
 
-Customizable Sensitivity: Users can ignore specific keywords or lines to prevent unnecessary prompts.
+- **Visual Studio Code** – Requires the latest version of VS Code.  
 
-Real-Time Scanning: Continuously scans the document as it changes to ensure that new secrets are flagged immediately.
+## Installation  
 
-## Requirements
+1. Open **Visual Studio Code**  
+2. Go to the **Extensions** Marketplace (`Ctrl + Shift + X`)  
+3. Search for **CodeSafe**  
+4. Click **Install**  
 
-Visual Studio Code: This extension requires the latest version of VS Code.
+## Usage  
 
-## Extension Settings
+### Automatic Scanning  
 
-This extension does not add additional settings but allows you to enable or disable the scanning process using the safecode.scan command.
+CodeSafe runs automatically and detects exposed API keys and sensitive data in real time.  
 
-## Use 
+### Manual Scan  
 
-### Works automatically 
+If you need to run a scan manually, follow these steps:  
 
-however 
+1. Press **Ctrl + Shift + P**  
+2. Type: **Scan Code for Security Risks**  
+3. Press **Enter**  
 
-### If Needed to Run Manually 
+The extension will highlight areas where sensitive information, such as API keys or passwords, is exposed.  
 
-Do The Followimg:
+## Extension Settings  
 
-control+shift + P 
+CodeSafe does not add additional settings but allows you to enable or disable scanning using the `safecode.scan` command.  
 
-Type in Bar: 
-Scan Code For Security Risks 
+## Release Notes  
 
-Press Enter 
+### 1.0.0  
 
-It will highlight were you need to change the code for exposed keys, passwords or codes. 
+- Initial release of CodeSafe  
+- Features automatic detection of sensitive information and user alerts  
 
-## Release Notes
+## License  
 
-### 1.0.0
-
-Initial release of CodeSafe, featuring sensitive keyword detection and redaction.
+MIT License  
 
 
-**Enjoy!**
+## Contributor
+
+Lawrence Menegus 
+
